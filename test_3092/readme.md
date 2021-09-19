@@ -32,15 +32,15 @@ $ pip install -r requirements.txt
 * You need to have a database and table already created (if you need to 
 create one, as an example there is a database model file *(db_model.mwb)* which you can use to generate database and table);
 * The data inside csv file should be axactly in the following formats:
-  * Date (1 row): date in the format: dd/mm/yy;
-  * Ad Unit Name (2 row): string no more than 20 charcters;
-  * Ad Unit ID, Typetag (3-4 rows): integers;
-  * Revenue Source (5 row): string no more than 10 characters;
-  * Market (6 row): string no more than 20 charcters;
-  * Queries, Clicks, Impressions (7-9 rows): integers;
-  * Page Rpm, Impression Rpm, True Revenue (10-12 rows): integer or decimal no greater than 9999999,9999 with 4 digits after comma;
-  * Coverage (13 row): integer or decimal no bigger than 999,99 with 2 digits after comma;
-  * Ctr (14 row): integer or decimal no bigger than 9,999999 with 6 digits after comma.
+  * Date (1 column): date in the format: dd/mm/yy;
+  * Ad Unit Name (2 column): string no more than 20 charcters;
+  * Ad Unit ID, Typetag (3-4 columns): integers;
+  * Revenue Source (5 column): string no more than 10 characters;
+  * Market (6 column): string no more than 20 charcters;
+  * Queries, Clicks, Impressions (7-9 columns): integers;
+  * Page Rpm, Impression Rpm, True Revenue (10-12 columns): integer or decimal no greater than 9999999,9999 with 4 digits after comma;
+  * Coverage (13 column): integer or decimal no bigger than 999,99 with 2 digits after comma;
+  * Ctr (14 column): integer or decimal no bigger than 9,999999 with 6 digits after comma.
 
 ### Cosa avrei fatto in modo migliore se avessi avuto più tempo a disposizione:
 #### the question in the task
