@@ -1,1 +1,0 @@
-SECRET_KEY="Some_random_generated_secret_key"
